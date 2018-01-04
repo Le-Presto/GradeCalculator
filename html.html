@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="css.css"/>
+
+</head>
+<body>
+    <div id="header">GRADE CALCULATOR</div>
+    <div id="directions">List your grades in each category as a percent (out of 100). Each list should be
+        separated by commas with <br>no other words or punctuation marks. There is example
+        data showing how to enter it. In the second column, <br>put the
+        weight of that category as a percent number. The weights (excluding the final) should add to 100.
+        <br>_______________________________________________________________________________________
+    </div>
+    <table id="grades" border="1" cellspacing="0" cellpadding="20">
+        <tr>
+            <th>
+                <div >Homework Grades</div>
+                <input type="text" id="homework" value="93, 88, 75, 91" size="25">
+            </th>
+            <th>
+                <div >Weight</div>
+                <input type="text" id="hweight" value="15" size="5">
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <div >Quizzes Grades</div>
+                <input type="text" id="quizzes" value="89, 83, 94" size="25">
+            </th>
+            <th>
+                <div >Weight</div>
+                <input type="text" id="qweight" value="20" size="5">
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <div >Tests Grades</div>
+                <input type="text" id="tests" value="95, 91, 98" size="25">
+            </th>
+            <th>
+                <div >Weight</div>
+                <input type="text" id="tweight" value="30" size="5">
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <div >Midterm Grades</div>
+                <input type="text" id="midterm" value="84" size="25">
+            </th>
+            <th>
+                <div >Weight</div>
+                <input type="text" id="mweight" value="35" size="5">
+            </th>
+        </tr>
+    </table>
+
+    <button id="calculate" onclick="calculateCurrentGrade()">CALCULATE GRADE</button>
+    <button id="calcfinal" onclick="calculateGradeNeeded()">GET FINAL NEEDED</button>
+    <div id="fneed">Final Grade <br>Needed:</div>
+    <div id="grdout">Current Grade:</div>
+    <table id="final" border="1" cellspacing="0" cellpadding="20">
+        <tr>
+        <th>
+
+            <div >Final Exam Weight</div>
+            <input type="text" id="fweight" value="20" size="5">
+        </th>
+    </tr>
+    </table>
+    <input type="text" id="desired" placeholder="What grade do you want?" size="25">
+</body>
+</html>

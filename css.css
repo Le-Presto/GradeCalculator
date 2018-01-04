@@ -1,0 +1,74 @@
+#header{
+    font-size: 60px;
+}
+#directions{
+    font-size: 18px;
+    font-style: italic;
+}
+
+body{
+    font-family: Futura;
+}
+
+#grades{
+    font-family: Futura;
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+    background-color: lightslategray;
+    border-color: white;
+}
+
+#calculate {
+     font-family: Futura;
+     font-size: 30px;
+     text-align: left;
+     font-weight: bolder;
+     color: white;
+     border-color: white;
+     background-color: lightskyblue;
+     height: 60px;
+     width: 299px;
+ }
+#calcfinal {
+    font-family: Futura;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    border-color: white;
+    background-color: lightskyblue;
+    height: 90px;
+    width: 200px;
+    position: absolute;
+    left: 400px;
+    top: 400px;
+}
+
+#fneed {
+    position: absolute;
+    left: 400px;
+    top: 500px;
+    font-size: 24px;
+}
+
+#grdout {
+    position: absolute;
+    top: 600px;
+    font-size: 24px;
+}
+
+#final {
+    position: absolute;
+    left: 400px;
+    top: 300px;
+    width: 200px;
+}
+#desired {
+    position: absolute;
+    left: 400px;
+    top: 250px;
+    height: 30px;
+    width: 193px;
+    font-size: 14px;
+    font-family: Futura;
+}
